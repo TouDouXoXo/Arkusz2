@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<title>Tabela (aka Tier list)</title>
-<meta charset="utf-8">
-  <meta name="description" content="Formulaz">
-  <meta name="keywords" content="Star Wars">
-  <meta name="author" content="TouDouXoXo">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
- <link rel="icon" type="image/x-icon" href="favicon.ico">
-<body>
-<h2>HTML Forms</h2>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulearzen Skargen</title>
+        
+        <link rel="icon" type="icon" href="PULPIT/4k.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="center">
+        <h2 class="center2" style="background-color: whitesmoke;padding: 5px; width: 40%;"> &#128128; &#11088; Formularz Kontkatowy. &#128100; &#128520;</h2>
+        </div>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
-  <input type="submit" value="Submit">
-</form> 
+<div action="/action_page.php" class="center">
+<form method="GET" autocomplete="on">
+  <h4 class="center3"><label for="fname">&#8364 Wpisz swoje imię &#8383</label></h4>
+  <br>
+  <br>
+  <input type="text" id="fname" name="fname" placeholder="Tomasz">
+  <br>
+  <br>
+  <h4 class="center3"><label for="lname">&#36 Wpisz swoje nazwisko &#8383</label></h4>
+  <br>
+  <input type="text" id="lname" name="lname" placeholder="Kowalski">
+  <br>
+  <br>
+  <h4 class="center3">Uwagi</h4>
+  <br>
+  <br>
+  <textarea type="text" id="text_area" name="pole_tekstowe" rows="8" cols="30" placeholder="Jeśli miałeś problem z naszymi usługami dostaw gwiezdnych wprowadz swoją uwagę. Rozstrzelanie Gwarantowane. Nasza firma nie pokrywa kosztów salw honorowych ani kosztów pogrzebów" ></textarea><br><br>
+           <label for="statki" class="center2">Wybierz swój statek:</label>
+           <br>
+           <br>
+            <select id="statki" name="statki">
+              <option value="krazownik">Krążownik</option>
+              <option value="mysliwiec">Myśliwiec</option>
+              <option value="zwiadowczy">Zwiadowczy</option>
+              <option value="fregata">Fregata</option>
+            </select><br><br>
+                            <label for="stan" class="center2">Wybierz stan statku:</label>
+                            <br>
+                            <br>
+                            <select id="stan" name="stan" size="6" multiple>
+                              <option value="nowy">Nowy</option>
+                              <option value="malo_uzywany">Mało używany</option>
+                              <option value="uzywany">Używany</option>
+                              <option value="muzealny" >Muzealny</option>
+                              <option value="szrot">Szrot, ale na chodzie</option>
+                              <option value="Panie" > Panie szczur się pod tym nie przeciśnie</option>
+                            </select><br><br>
+  <input type="submit"  value="&#10067; Wyślij &#10067;" class="center3">
+  <br>
+  <input type="reset">
+  <input type="button" 
+  onclick="alert('UWAGA REBELIANCI! wkroczyliście na serwery imperium zostaliście zidentyfikowani oraz namierzeni przez impreliane siły zbrojne w waszą strone lecą Krążowniki impreialne . Chwała Imperium')"
+   value="Jeśli jesteś Rebeliantem wciśnij !"> 
+</form>
+</div>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    </body>
 
-</body>
+
 </html>
