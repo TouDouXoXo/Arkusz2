@@ -1,0 +1,25 @@
+/* Podstawa */
+
+*{
+    color: #9b9b9b;
+    background: #ffffff;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+body{
+    padding: 0 50px;
+    width: 50%;
+    margin: 25px auto;
+}
+
+p {
+    background: #054d77;
+    text-align: center;
+}
+
+h1 {
+    color: #474747;
+    text-align: center;
+}
+
